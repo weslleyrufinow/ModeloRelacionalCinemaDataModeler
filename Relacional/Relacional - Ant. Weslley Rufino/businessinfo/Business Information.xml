@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B1228A04-D7DC-2598-551D-412B40A7D7B9">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-04 17:43:26 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

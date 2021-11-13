@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2ACE3FF9-AF82-D55C-5695-5D03166E53A2" name="Sala">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-04 17:44:48 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDSala" id="5827F89E-A17E-F269-913E-C8DAB5E4985A">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:14:37 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacidade" id="F700252C-8DAC-E1D3-8B9D-1DCCE7F9832B">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:15:06 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="359FD078-1B53-0C2A-0692-C8557266476F">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:16:40 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31898955-1AC4-5D49-0624-D4649346D284" name="Sala_PK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:14:37 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5827F89E-A17E-F269-913E-C8DAB5E4985A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

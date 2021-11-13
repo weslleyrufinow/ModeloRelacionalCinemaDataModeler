@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE1EC27-19D2-DC51-1222-A43E5BBFB24A" name="Equipe">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:10:50 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDEquipe" id="664CE349-50BB-E87F-E499-1A2A1F7B4B3C">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:11:41 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Horario_IDHoraio" id="D401BFB5-1141-2FF9-0537-C00255198A14">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:11:10 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F78E8510-DDF3-CF24-5D5E-7EFF0F1B800B" referredColumn="DC1510F8-27FC-9EB6-7942-667AB062703B"/>
+</associations>
+</Column>
+<Column name="Horario_Hora" id="675C7B4B-C64D-5A11-4BD1-49999ABFA4BD">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:11:10 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F78E8510-DDF3-CF24-5D5E-7EFF0F1B800B" referredColumn="F19626F4-233A-9838-4A47-BFA9B7259B5C"/>
+</associations>
+</Column>
+<Column name="Funcionario_IDFuncionario" id="E0124717-5BD6-FD20-BFDD-10DAB7B32A29">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:11:15 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EE06810-645E-DB13-8FB7-C53BC5D3AEF4" referredColumn="ED87D22B-CD7D-F7A1-8013-36497DD9386C"/>
+</associations>
+</Column>
+<Column name="Funcao_IDFuncao" id="C878ACB7-EED1-EA5F-BF53-A90E41CB19FC">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:11:19 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6A1FD44-BFC6-CD6E-209A-C445BDD2B434" referredColumn="333586F1-507E-160B-92B5-B5F36B57C67B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBF9C5C5-6CF8-9839-3AAE-CBBDBBD94F20" name="Equipe_PK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:12:43 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="664CE349-50BB-E87F-E499-1A2A1F7B4B3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64091682-A8BF-9466-87C7-90F5B1B52F0E" name="Equipe_Horario_FK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:11:10 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D401BFB5-1141-2FF9-0537-C00255198A14"/>
+<colUsage columnID="675C7B4B-C64D-5A11-4BD1-49999ABFA4BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2386CA51-C550-89C1-A7CD-70FD24DD7E24" name="Equipe_Funcionario_FK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:11:15 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0124717-5BD6-FD20-BFDD-10DAB7B32A29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EA0136E-5D04-0C95-0795-2C9746831213" name="Equipe_Funcao_FK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:11:19 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C878ACB7-EED1-EA5F-BF53-A90E41CB19FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

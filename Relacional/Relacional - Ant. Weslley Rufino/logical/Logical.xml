@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0723CAD6-A38A-141D-F4DA-20D7924FDF11" mainViewID="3CEAF9D0-4EFE-3955-69C3-68FCF1B412C2">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-04 17:43:26 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

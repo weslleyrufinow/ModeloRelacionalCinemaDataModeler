@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61DF1C1C-8500-530D-D426-E000618D67D2" name="Exibicao">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:45:53 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDExibicao" id="BCB4AAF4-A09D-EF87-917D-6AA664A61F0C">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:51:13 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sala_IDSala" id="AFA6EC8E-E37A-112F-A478-E6C5ED132970">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:46:22 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A9A53A2-8FF9-79A2-8579-5A66E06EE2E6" referredColumn="5827F89E-A17E-F269-913E-C8DAB5E4985A"/>
+</associations>
+</Column>
+<Column name="Filme_IDFilme" id="CA20B6E9-1838-68D3-0211-D3099783564D">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:46:27 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29827426-700D-5F3C-170E-DE1E9ED092F2" referredColumn="0D415F7A-5DC2-7012-3306-34D38AF7F880"/>
+</associations>
+</Column>
+<Column name="Horario_IDHoraio" id="5C578F5E-5C35-4A4B-E1B0-0C2C813CE782">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:46:31 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFE94868-D0AE-601F-4565-F05CFCC8C4C6" referredColumn="DC1510F8-27FC-9EB6-7942-667AB062703B"/>
+</associations>
+</Column>
+<Column name="Horario_Hora" id="0FCC54E1-3915-F730-398B-E39CD9102494">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:46:31 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFE94868-D0AE-601F-4565-F05CFCC8C4C6" referredColumn="F19626F4-233A-9838-4A47-BFA9B7259B5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F27E5A8-C4A8-C14D-EFBB-AB54D891051C" name="Exibicao_PK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:51:13 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCB4AAF4-A09D-EF87-917D-6AA664A61F0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CBD70E2-EFC6-2B4D-F073-68EEEA5E4C81" name="Exibicao_Sala_FK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:46:22 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFA6EC8E-E37A-112F-A478-E6C5ED132970"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3812E0EE-83EA-05C1-18C5-A7ABF0A5ACD0" name="Exibicao_Filme_FK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:46:27 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA20B6E9-1838-68D3-0211-D3099783564D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF4E0996-9F30-2208-A48E-FCC426E97032" name="Exibicao_Horario_FK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 18:46:31 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C578F5E-5C35-4A4B-E1B0-0C2C813CE782"/>
+<colUsage columnID="0FCC54E1-3915-F730-398B-E39CD9102494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

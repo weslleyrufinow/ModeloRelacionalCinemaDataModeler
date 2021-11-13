@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6A1FD44-BFC6-CD6E-209A-C445BDD2B434" containerWithKeyObject="AAE1EC27-19D2-DC51-1222-A43E5BBFB24A" localFKIndex="0EA0136E-5D04-0C95-0795-2C9746831213" name="Equipe_Funcao_FK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:11:19 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<referredTableLongName>Funcao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A3C7AD8-32F2-9E84-428B-5ECA9364334D</referredTableID>
+<keyObject>0253E275-EC2D-2924-BE0A-964A78A4668D</keyObject>
+<referredKeyID>0253E275-EC2D-2924-BE0A-964A78A4668D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDFuncao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

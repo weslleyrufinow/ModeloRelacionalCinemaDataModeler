@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F78E8510-DDF3-CF24-5D5E-7EFF0F1B800B" containerWithKeyObject="AAE1EC27-19D2-DC51-1222-A43E5BBFB24A" localFKIndex="64091682-A8BF-9466-87C7-90F5B1B52F0E" name="Equipe_Horario_FK">
+<createdBy>wesll</createdBy>
+<createdTime>2021-11-07 19:11:10 UTC</createdTime>
+<ownerDesignName>AP1 BD1 Relacional - Ant. Weslley Rufino</ownerDesignName>
+<referredTableLongName>Horario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A85D91C-A44B-19B6-1E22-D44D2784B4C7</referredTableID>
+<keyObject>9E5D5B88-05C5-818B-8255-D3F5BCD639B7</keyObject>
+<referredKeyID>9E5D5B88-05C5-818B-8255-D3F5BCD639B7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDHoraio,Hora</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
